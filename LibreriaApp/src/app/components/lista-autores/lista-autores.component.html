@@ -1,0 +1,25 @@
+<div style="align-items: center;">
+    <h2>Autores</h2>
+<br />
+<p-toast position="bottom-center" key="bc"></p-toast>
+<br />
+<p-table [value]="lstAutores">
+    <ng-template pTemplate="header">
+        <tr>
+            <th pSortableColumn="idAutor">Id <p-sortIcon field="idAutor"></p-sortIcon></th>
+            <th pSortableColumn="nombre">Nombre <p-sortIcon field="nombre"></p-sortIcon></th>
+            <th pSortableColumn="paisOrigen">Nacionalidad <p-sortIcon field="paisOrigen"></p-sortIcon></th>
+            <th pSortableColumn="libro.length"># Libros <p-sortIcon field="libro.length"></p-sortIcon></th>            
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-item>
+        <tr>
+            <td>{{item.idAutor}}</td>
+            <td>{{item.nombre}}</td>
+            <td>{{item.paisOrigen}}</td>
+            <td>{{item.libro.length}}</td>   
+        </tr>
+    </ng-template>
+</p-table>
+</div>
+

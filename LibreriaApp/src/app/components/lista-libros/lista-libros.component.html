@@ -1,0 +1,84 @@
+<div style="align-items: center;">
+    <h2>Libros</h2>
+<br />
+<p-toast position="bottom-center" key="bc"></p-toast>
+<div>
+    
+</div>
+<br />
+<div>
+    <h5>Filtro</h5>
+    <br />
+    <div>                
+        <table>
+            <tr>
+                <td class="col-md-1">
+                    Autor
+                </td>
+                <td class="col-md-3">
+                    <input type="text" id="txtAutor" [(ngModel)]="autor">
+                </td>
+                <td class="col-md-1">
+                    Año Inicio
+                </td>
+                <td class="col-md-2">
+                    <input type="number" min="1" max="9999" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==4) return false;" id="txtInicio" [(ngModel)]="inicio">
+                </td>
+                <td class="col-md-1">
+                    <label>Año Fin</label>
+                </td>
+                <td class="col-md-1">
+                    <input type="number" min="1" max="9999" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==4) return false;" id="txtFin" [(ngModel)]="fin">
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="button btn-primary" (click)="Busqueda()">Buscar</button>
+                </td>
+                <td>
+                    <button type="button" class="button btn-secondary" (click)="Limpiar()">Limpiar</button>
+                </td>
+                <td>
+                    <button type="button" class="button btn-success" (click)="GenerarExcel()">Generar Excel</button>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <br />
+    <br />    
+</div>
+<p-table [value]="lstLibros">
+    <ng-template pTemplate="header">
+        <tr>
+            <th pSortableColumn="idLibro">Id <p-sortIcon field="idLibro"></p-sortIcon></th>
+            <th pSortableColumn="titulo">Titulo <p-sortIcon field="titulo"></p-sortIcon></th>
+            <th pSortableColumn="autor.nombre">Autor <p-sortIcon field="autor.nombre"></p-sortIcon></th>
+            <th pSortableColumn="anioPublicacion">Año Publicación <p-sortIcon field="anioPublicacion"></p-sortIcon></th>            
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-item>
+        <tr>
+            <td>{{item.idLibro}}</td>
+            <td>{{item.titulo}}</td>
+            <td>{{item.autor.nombre}}</td>
+            <td>{{item.anioPublicacion}}</td>   
+        </tr>
+    </ng-template>
+</p-table>
+<br /><br />
+<table id="tblLibros"style="display:none">    
+        <tr>
+            <th>Id</th>
+            <th>Titulo</th>            
+            <th>Autor</th>            
+            <th>Año Publicación</th>            
+        </tr>    
+        <tr *ngFor="let item of lstLibros">
+            <td>{{item.idLibro}}</td>
+            <td>{{item.titulo}}</td>
+            <td>{{item.autor.nombre}}</td>
+            <td>{{item.anioPublicacion}}</td>            
+        </tr>    
+</table>
+
+</div>
