@@ -1,0 +1,12 @@
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\bin\Debug\netcoreapp3.1\LibreriaRepository.deps.json
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\bin\Debug\netcoreapp3.1\LibreriaRepository.dll
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\bin\Debug\netcoreapp3.1\LibreriaRepository.pdb
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.csprojAssemblyReference.cache
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.AssemblyInfoInputs.cache
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.AssemblyInfo.cs
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.csproj.CoreCompileInputs.cache
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.dll
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.pdb
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\bin\Debug\netcoreapp3.1\LibreriaEntities.dll
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\bin\Debug\netcoreapp3.1\LibreriaEntities.pdb
+D:\Desarrollos\SolucionLibreria\LibreriaRepository\obj\Debug\netcoreapp3.1\LibreriaRepository.csproj.CopyComplete

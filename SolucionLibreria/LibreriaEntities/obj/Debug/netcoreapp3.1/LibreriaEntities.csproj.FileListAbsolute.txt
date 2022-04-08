@@ -1,0 +1,12 @@
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\bin\Debug\netcoreapp3.1\LibreriaEntities.deps.json
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\bin\Debug\netcoreapp3.1\LibreriaEntities.runtimeconfig.json
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\bin\Debug\netcoreapp3.1\LibreriaEntities.runtimeconfig.dev.json
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\bin\Debug\netcoreapp3.1\LibreriaEntities.dll
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\bin\Debug\netcoreapp3.1\LibreriaEntities.pdb
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.csprojAssemblyReference.cache
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.AssemblyInfoInputs.cache
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.AssemblyInfo.cs
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.csproj.CoreCompileInputs.cache
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.dll
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.pdb
+D:\Desarrollos\SolucionLibreria\LibreriaEntities\obj\Debug\netcoreapp3.1\LibreriaEntities.genruntimeconfig.cache
