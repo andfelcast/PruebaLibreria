@@ -1,0 +1,6 @@
+INSTRUCCIONES
+---------------
+1. Cargar el archivo .bak en una instancia de Sql Server. Ahí se encuentra la base de datos y las estructuras
+2. Cuando vaya a usar la app de angular, antes de compilarlar, dar el comando npm install para que cargue todos los paquetes
+
+GRACIAS
